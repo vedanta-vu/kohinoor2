@@ -3,11 +3,23 @@ body{
     font-family:Arial,sans-serif;
 }
 
+body{
+    margin:0;
+    background:#f5f5f5;
+}
+
 .hero{
-    height:100vh;
-    background:url('images/hero.jpg');
-    background-size:cover;
-    background-position:center;
+    max-width:1400px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+.hero img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
 }
 
 .overlay{
