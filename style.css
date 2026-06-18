@@ -14,9 +14,9 @@ body{
 /* HERO */
 
 .hero{
-    max-width:1400px;
-    margin:30px auto;
-    padding:0 20px;
+    max-width:1600px;
+    margin:15px auto;
+    padding:0 10px;
 }
 
 .hero img{
